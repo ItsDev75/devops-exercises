@@ -282,7 +282,8 @@ This info copied from [https://stackoverflow.com/questions/29217859/what-is-the-
 
 You delete a remote branch with this syntax:
 
-git push origin :[branch_name]
+git push <remote_name> --delete <branch_name>
+
 </b></details>
 
 <details>
